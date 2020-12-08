@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -58,6 +59,40 @@ namespace MyWindowsFormProject
             //MessageBox.Show(details);
 
 
+        }
+
+        private void dbinsert_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                String str = "Server=LAPTOP-OGTST92J\\SQLEXPRESS; Database=MrinBD; Integrated Security=True;";
+
+       
+                String query = "select * from Names";
+
+                SqlConnection con = new SqlConnection(str);
+
+                SqlCommand cmd = new SqlCommand(query, con);
+
+                con.Open();
+
+                DataSet ds = new DataSet();
+
+                MessageBox.Show("connect with sql server");
+
+                con.Close();
+
+            }
+
+            catch (Exception es)
+            {
+
+                MessageBox.Show(es.Message);
+
+
+
+            }
         }
     }
 }

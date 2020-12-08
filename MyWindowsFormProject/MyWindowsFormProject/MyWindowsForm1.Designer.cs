@@ -45,6 +45,7 @@
             this.btnBrowse = new System.Windows.Forms.Button();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.rtbOutput = new System.Windows.Forms.RichTextBox();
+            this.DBInsert = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbProfileImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -204,12 +205,23 @@
             this.rtbOutput.TabIndex = 16;
             this.rtbOutput.Text = "";
             // 
+            // DBInsert
+            // 
+            this.DBInsert.Location = new System.Drawing.Point(287, 446);
+            this.DBInsert.Name = "DBInsert";
+            this.DBInsert.Size = new System.Drawing.Size(75, 23);
+            this.DBInsert.TabIndex = 17;
+            this.DBInsert.Text = "DBINSERT";
+            this.DBInsert.UseVisualStyleBackColor = true;
+            this.DBInsert.Click += new System.EventHandler(this.dbinsert_Click);
+            // 
             // FrmRegistrationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LimeGreen;
             this.ClientSize = new System.Drawing.Size(629, 507);
+            this.Controls.Add(this.DBInsert);
             this.Controls.Add(this.rtbOutput);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnBrowse);
@@ -256,6 +268,7 @@
         private System.Windows.Forms.Button btnBrowse;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.RichTextBox rtbOutput;
+        private System.Windows.Forms.Button DBInsert;
     }
 }
 
