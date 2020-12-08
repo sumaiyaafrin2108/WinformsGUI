@@ -1,0 +1,12 @@
+C:\Users\student\Desktop\11th sem_lectures\MyWindowsFormProject\MyWindowsFormProject\bin\Debug\MyWindowsFormProject.exe.config
+C:\Users\student\Desktop\11th sem_lectures\MyWindowsFormProject\MyWindowsFormProject\bin\Debug\MyWindowsFormProject.exe
+C:\Users\student\Desktop\11th sem_lectures\MyWindowsFormProject\MyWindowsFormProject\bin\Debug\MyWindowsFormProject.pdb
+C:\Users\student\Desktop\11th sem_lectures\MyWindowsFormProject\MyWindowsFormProject\obj\Debug\MyWindowsFormProject.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\11th sem_lectures\MyWindowsFormProject\MyWindowsFormProject\obj\Debug\MyWindowsFormProject.FrmRegistrationForm.resources
+C:\Users\student\Desktop\11th sem_lectures\MyWindowsFormProject\MyWindowsFormProject\obj\Debug\MyWindowsFormProject.Properties.Resources.resources
+C:\Users\student\Desktop\11th sem_lectures\MyWindowsFormProject\MyWindowsFormProject\obj\Debug\MyWindowsFormProject.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\11th sem_lectures\MyWindowsFormProject\MyWindowsFormProject\obj\Debug\MyWindowsFormProject.exe
+C:\Users\student\Desktop\11th sem_lectures\MyWindowsFormProject\MyWindowsFormProject\obj\Debug\MyWindowsFormProject.pdb
+D:\11th sem_lectures\C#\MyWindowsFormProject\MyWindowsFormProject\bin\Debug\MyWindowsFormProject.exe.config
+D:\11th sem_lectures\C#\MyWindowsFormProject\MyWindowsFormProject\obj\Debug\MyWindowsFormProject.exe
+D:\11th sem_lectures\C#\MyWindowsFormProject\MyWindowsFormProject\obj\Debug\MyWindowsFormProject.pdb
